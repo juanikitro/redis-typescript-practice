@@ -5,8 +5,7 @@
 	"main": "dist/index.js",
 	"scripts": {
 		"redis": "sudo systemctl restart redis.service",
-		"start": "npx tsc && node dist/index.js",
-		"start:dev": "npx ts-node ."
+		"start": "npx tsc && node dist/index.js"
 	},
 	"author": "@juanikitro",
 	"license": "ISC",
